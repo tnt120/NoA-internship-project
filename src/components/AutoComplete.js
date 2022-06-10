@@ -21,7 +21,8 @@ const AutoComplete = props => {
   };
 
   return (
-    <div>
+    <div className="AutoComplete">
+      <p>Click "space" to add tag.</p>
       <AutoCompleteSearchBar id={id} addItem={addItem} />
       <AutoCompleteDataList id={id} listItems={myItems} />
     </div>

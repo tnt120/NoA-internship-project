@@ -12,6 +12,10 @@ code {
     monospace;
 }
 
+.AutoComplete{
+  text-align: center;
+}
+
 .SearchBar{
   width: 60%;
   display: flex;
